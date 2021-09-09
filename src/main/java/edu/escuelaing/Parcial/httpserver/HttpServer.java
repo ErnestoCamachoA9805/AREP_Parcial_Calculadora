@@ -1,4 +1,4 @@
-package edu.escuelaing.Parcial.httpserver;
+package edu.escuelaing.parcial.httpserver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.escuelaing.Parcial.servicecalculator.TrigCalculator;
+import edu.escuelaing.parcial.servicecalculator.TrigCalculator;
 
 public class HttpServer {
     private static HttpServer _instance = new HttpServer();
